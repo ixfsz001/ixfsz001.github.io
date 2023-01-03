@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - 页面不存在</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        a,
+        body,
+        dd,
+        div,
+        dl,
+        dt,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        li,
+        ol,
+        p,
+        ul,
+        li {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        body {
+            background-color: #ffffff;
+        }
+
+        .clear {
+            height: 50px;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding-top: 12px;
+            padding-bottom: 30px;
+            height: 35px;
+            background-color: #ffffff;
+        }
+
+        .nav {
+            margin-left: 1.6%;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav img {
+            margin-right: 10px;
+            height: 20px;
+        }
+
+        .nav span {
+            font-size: 13px;
+            color: #2a2a2a
+        }
+
+        .nav span:hover {
+            color: #ff7000;
+        }
+
+        .box {
+            background-image: url(./img/404.svg);
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            background-size: 38%;
+            margin: 0 auto;
+            margin-top: 10%;
+            width: 80%;
+            height: 15em;
+        }
+
+        .text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        h2 {
+            color: #373737;
+        }
+
+        p {
+            margin-top: 1.5%;
+            color: #ccc;
+            font-size: 13px;
+        }
+
+        .talk {
+            color: #ccc;
+            font-size: 13px;
+            text-decoration: underline;
+        }
+
+        .return {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 1.5%;
+            width: 50%;
+            height: 30px;
+        }
+
+        .button1 {
+            font-size: 13px;
+            color: #ffffff;
+            margin-top: 5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 15px 8px 15px;
+            border-radius: 20px;
+            background: rgb(255, 112, 0);
+        }
+        .button2 {
+            font-size: 13px;
+            color: #ff7000;
+            margin-top: 5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 7px 15px 7px 15px;
+            border: #ff7000 1px solid;
+            border-radius: 20px;
+        }
+        .button1:hover{
+            color: #ffffff;
+            background: rgb(255, 112, 0);
+            background: linear-gradient(120deg, rgba(255, 112, 0, 1) 83%, rgba(245, 175, 25, 1) 100%);
+            transition: all 0.3s;
+            transform: scale(1.05);
+        }
+        .button2:hover{
+            color: #ffffff;
+            background: rgb(255, 112, 0);
+            background: linear-gradient(120deg, rgba(255, 112, 0, 1) 83%, rgba(245, 175, 25, 1) 100%);
+            transition: all 0.3s;
+            transform: scale(1.05);
+        }
+        .line{
+            width: 5%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 导航部分 -->
+    <header>
+        <a href="index.html">
+            <div class="nav">
+                <img src="./img/Main_logo.svg" alt="">
+                <span>小枫社长de前端课</span>
+            </div>
+        </a>
+    </header>
+
+    <!-- 内容部分 -->
+
+    <div class="box"></div>
+    <div class="text">
+        <h2>你似乎来到了没有知识存在的荒原</h2>
+        <p>请检查链接是否正确，页面是否存在？</p>
+    </div>
+    <div class="return">
+        <a href="index.html">
+            <div class="button1"><span>返回首页</span></div>
+        </a>
+        <div class="line"></div>
+        <a target="_blank" href="https://support.qq.com/product/464877">
+            <div class="button2">意见反馈</div>
+        </a>
+    </div>
+</body>
+
+</html>
